@@ -25,7 +25,7 @@ function preload() {
 } // 저장된 동작 리스트를 알기 위해 json파일을 프로그램 실행 전 미리 로드
 
 function setup() {
-  createCanvas(384, 512);
+  createCanvas(768, 1024);
   video = createCapture(VIDEO);
   video.size(width, height);
   video.hide();
